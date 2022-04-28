@@ -1,0 +1,33 @@
+{
+  "name": "coinserver",
+  "version": "1.0.0",
+  "description": "A NodeJS/Express REST API that serves up coin flips and its own rudimentary interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js --port=5000 --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmar3/coinserver.git"
+  },
+  "keywords": [
+    "coin",
+    "flip",
+    "node",
+    "express",
+    "api"
+  ],
+  "author": "@jdmar3",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jdmar3/coinserver/issues"
+  },
+  "homepage": "https://github.com/jdmar3/coinserver#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.5.1",
+    "express": "^4.18.0",
+    "minimist": "^1.2.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}

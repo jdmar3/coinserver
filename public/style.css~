@@ -1,0 +1,21 @@
+button.active {
+  background: black;
+  color: white;
+}
+
+div.active {
+  border: 5px solid red;
+  display: block;
+}
+
+div.inactive {
+  display: none;
+}
+
+img.bigcoin {
+  width: 100px;
+}
+
+img.smallcoin {
+  width: 50px;
+}
