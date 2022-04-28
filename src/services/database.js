@@ -1,6 +1,13 @@
 const database = require('better-sqlite3')
 
-const logdb = new database('log.db')
+const fs = require('fs');
+const datadir = './data/';
+
+if (!fs.existsSync(datadir)){
+    fs.mkdirSync(datadir);
+}
+
+const logdb = new database(datadir+'log.db')
 
 const stmt = logdb.prepare(`SELECT name FROM sqlite_master WHERE type='table' and name='accesslog';`)
 let row = stmt.get();

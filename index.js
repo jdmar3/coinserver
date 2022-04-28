@@ -46,8 +46,13 @@ if (args.log == 'false') {
     console.log("NOTICE: not creating file access.log")
 } else {
 // Use morgan for logging to files
+    const logdir = './log/';
+
+    if (!fs.existsSync(logdir)){
+        fs.mkdirSync(logdir);
+    }
 // Create a write stream to append to an access.log file
-    const accessLog = fs.createWriteStream('access.log', { flags: 'a' })
+    const accessLog = fs.createWriteStream( logdir+'access.log', { flags: 'a' })
 // Set up the access logging middleware
     app.use(morgan('combined', { stream: accessLog }))
 }
