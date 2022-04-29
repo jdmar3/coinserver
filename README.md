@@ -1,17 +1,8 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7561644&assignment_repo_type=AssignmentRepo)
-# a05 Web Interface
+# Coinserver
 
-In this assignment, you will build an HTML human interface for your API.
+A NodeJS/Express REST API that serves up coin flips
 
-## DO NOT CLONE THIS REPOSITORY DIRECTLY
-
-Use the GitHub classroom link instead: https://classroom.github.com/a/PUVGxeMe
-
-If you clone this repo directly, it will not be added to the organization as an individual repo associated with your account and you will not be able to push to it.
-
-## Instructions
-
-Full instructions for this assignment are available at: https://comp426.johndmart.in/a/05/
+This was developed from in-class demos for UNC COMP 426 Spring 2022.
 
 # Coinserver API Documentation
 
