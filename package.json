@@ -4,7 +4,8 @@
   "description": "A NodeJS/Express REST API that serves up coin flips and its own rudimentary interface.",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon server.js --port=5000 --debug"
+    "test": "nodemon index.js --port=5555 --debug",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
