@@ -4,6 +4,21 @@ A NodeJS/Express REST API that serves up coin flips
 
 This was developed from in-class demos for UNC COMP 426 Spring 2022.
 
+# Install and run instructions
+
+This currently works on Node v16.x.x (current iteration developed on v16.15.0).
+
+To install, clone this repository and then run `npm install` inside the directory.
+This will install all dependencies.
+
+To run for debugging, run `npm test`. It will listen on port 5555.
+
+To run, use `npm start` and the server will listen on whatever port is configured in `.env` or default to 5000. 
+
+To run on a specific port either change `PORT=` in `.env` or use `node index.js --port=PORT_NUMBER`.
+
+`node index.js --help` shows all currently-implemented options.
+
 # Coinserver API Documentation
 
 ## Endpoints
